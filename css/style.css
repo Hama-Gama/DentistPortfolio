@@ -40,10 +40,6 @@ html{
    scroll-padding-top: 6.5rem;
 }
 
-h3{
-   font-weight: 700;
-}
-
 
 section{
    padding:7rem 2rem;
@@ -123,6 +119,7 @@ section{
 
 .home .content h3{
    font-size: 6rem;
+   font-weight: 700;
    text-transform: uppercase;
    color:var(--black);
 }
@@ -308,7 +305,7 @@ section{
 }
 
 .contact form span{
-   font-size: 1.7rem;
+   font-size: 2rem;
    color:var(--black);
 }
 
@@ -343,7 +340,7 @@ section{
 }
 
 .footer .box-container .box p{
-   font-size: 1.5rem;
+   font-size: 2rem;
    color:var(--light-color);
    text-transform: none;
 }
@@ -439,12 +436,25 @@ section{
    }
 
 
-   .home .content h3{
-      font-size: 2rem;
-   }
-
    .heading{
       font-size: 3rem;
    }
+
+    
+
+   .home .content h3{
+      font-size: 4rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color:var(--black);
+   }
+   
+   .home .content p{
+      line-height: 2;
+      font-size: 1.5rem;
+      color:var(--light-color);
+      padding:1rem 0;
+   }
+
 
 }
